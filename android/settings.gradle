@@ -1,0 +1,3 @@
+rootProject.name = 'jabMobile'
+
+include ':app'

@@ -1,0 +1,33 @@
+{
+    "name": "jabMobile",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "node node_modules/react-native/local-cli/cli.js start",
+        "build-ios": "node node_modules/react-native/local-cli/cli.js build-ios",
+        "build-android": "node node_modules/react-native/local-cli/cli.js build-android",
+        "test": "jest",
+        "prettify": "prettier --single-quote --no-semi --trailing-comma es5 --print-width 120 --tab-width 4 --write '**/*.js*'"
+    },
+    "dependencies": {
+        "lodash": "^4.17.11",
+        "mobx": "^5.6.0",
+        "mobx-react": "^5.4.2",
+        "native-base": "^2.8.1",
+        "react": "16.6.1",
+        "react-jab": "^0.0.1-alpha.2",
+        "react-native": "0.57.5",
+        "react-router": "^4.3.1",
+        "react-router-native": "^4.3.0"
+    },
+    "devDependencies": {
+        "babel-jest": "23.6.0",
+        "jest": "23.6.0",
+        "metro-react-native-babel-preset": "0.49.2",
+        "prettier": "^1.15.2",
+        "react-test-renderer": "16.6.1"
+    },
+    "jest": {
+        "preset": "react-native"
+    }
+}
